@@ -4,11 +4,9 @@ import { CoolMode } from '@/components/ui/cool-mode'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import React from 'react'
-import { useRouter } from 'next/navigation'
 
 function page() {
 
-    const router = useRouter()
 
     return (
         <div className='bg-slate-900 text-white w-full min-h-screen flex flex-col items-center justify-center gap-4'>

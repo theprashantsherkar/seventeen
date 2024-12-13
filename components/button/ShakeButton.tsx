@@ -12,5 +12,5 @@ export default ShakeButton
 
 
 export type inputType = {
-    value:String,
+  value: string,
 }

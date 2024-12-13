@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+import { useRouter } from 'next/router';
 
 const page = () => {
 
@@ -9,6 +9,7 @@ const page = () => {
     const redirect = async () => {
         await new Promise((r) => setTimeout(r, 8350));
         router.push('/q4');
+
     }
 
     useEffect(() => {

@@ -2,10 +2,9 @@ import { CoolMode } from "@/components/ui/cool-mode"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import LetterPullup from "@/components/ui/letter-pullup"
-import { FollowerPointerCard, FollowPointer } from "@/components/ui/following-pointer"
+import { FollowerPointerCard } from "@/components/ui/following-pointer"
 import Image from "next/image"
 import WordPullUp from "@/components/ui/word-pull-up"
-import { BackgroundLines } from "@/components/ui/background-lines"
 
 export default function Home() {
   return (
