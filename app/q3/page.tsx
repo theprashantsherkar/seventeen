@@ -7,7 +7,7 @@ const page = () => {
 
     const router = useRouter();
     const redirect = async () => {
-        await new Promise((r) => setTimeout(r, 9000));
+        await new Promise((r) => setTimeout(r, 8350));
         router.push('/q4');
     }
 
