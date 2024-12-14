@@ -15,7 +15,11 @@ function Page() {
           <div className='flex items-center justify-center gap-3'>
               <Link href={"/q2"}>
                   
-                      <CoolMode>
+                  <CoolMode options={{
+                      particle:
+                          "heart.png",
+                  }}>
+                      
                           <SuccessButton value={"PRASHU"} />
                       </CoolMode>
                 

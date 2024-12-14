@@ -19,7 +19,10 @@ export default function Page() {
             </div>
             <div className='flex items-center justify-center gap-6'>
                 <Link href={"/q3"}>
-                    <CoolMode>
+                    <CoolMode options={{
+                                              particle:
+                            "heart.png",
+                                          }}>
                         <Button>
                             PRASHU
                         </Button>

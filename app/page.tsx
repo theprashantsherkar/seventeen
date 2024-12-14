@@ -21,7 +21,10 @@ export default function Home() {
         <h1 className="text-4xl"><LetterPullup words="Hello Tanvi" delay={0.05} /></h1>
         <WordPullUp words="Happy one month anniversary, my love!❤️" />
         <div className="hover:cursor-none">
-          <CoolMode>
+          <CoolMode options={{
+                                    particle:
+              "heart.png",
+                                }}>
             <Button>
               <Link href={"/first"}>Lets GO.</Link>
             </Button>

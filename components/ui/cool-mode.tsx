@@ -1,4 +1,5 @@
-"use client"
+'use client';
+
 import React, { ReactNode, useEffect, useRef } from "react";
 
 export interface BaseParticle {
@@ -222,10 +223,9 @@ const applyParticleEffect = (
 };
 
 interface CoolModeProps {
-  children: ReactNode;
-  options?: CoolParticleOptions;
+  children: React.ReactElement; // Ensure children is a React element
+  options: Record<string, unknown>; // Adjust the type of options as needed
 }
-
 export const CoolMode: React.FC<CoolModeProps> = ({ children, options }) => {
   const ref = useRef<HTMLElement>(null);
 
@@ -235,5 +235,5 @@ export const CoolMode: React.FC<CoolModeProps> = ({ children, options }) => {
     }
   }, [options]);
 
-  return React.cloneElement(children as React.ReactElement, { ref });
+  return React.cloneElement(children, { ref } as any);
 };

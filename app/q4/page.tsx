@@ -16,14 +16,20 @@ function Page() {
             </div>
             <div className='flex items-center justify-center gap-3'>
                 <Link href={"/result"}>
-                    <CoolMode>
+                    <CoolMode options={{
+                                              particle:
+                                                  "https://pbs.twimg.com/profile_images/1782811051504885763/YR5-kWOI_400x400.jpg",
+                                          }}>
                         <Button>
                             TANVII
                         </Button>
                     </CoolMode>
                 </Link>
                 <Link href={"/result"}>
-                    <CoolMode>
+                    <CoolMode options={{
+                                              particle:
+                            "heart.png",
+                                          }}>
                         <Button>
                             PRASHU
                         </Button>

@@ -19,7 +19,10 @@ function Page() {
                     I have something for you, but before that lets have some fun.
                 </p>
                 <Link href={"/q1"}>
-                    <CoolMode>
+                    <CoolMode options={{
+                                              particle:
+                                                  "heart.png"
+                                          }}>
                         <Button>Tap here</Button>
                     </CoolMode>
                 </Link>
