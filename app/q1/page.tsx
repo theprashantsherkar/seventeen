@@ -6,7 +6,7 @@ import SuccessButton from '@/components/button/SuccessButton'
 import Link from 'next/link'
 
 
-function page() {
+function Page() {
   return (
       <div className='bg-black text-white w-full h-screen flex gap-6 items-center justify-center flex-col'>
           <div className='text-3xl'>
@@ -26,4 +26,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

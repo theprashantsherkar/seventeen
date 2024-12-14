@@ -7,7 +7,7 @@ import Link from 'next/link';
 import React from 'react'
 import { toast } from 'sonner';
 
-function page() {
+export default function Page() {
 
     const handleContinue = () => {
         toast("Reconsider your decision Babe!");
@@ -48,4 +48,3 @@ function page() {
     )
 }
 
-export default page

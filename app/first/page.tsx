@@ -4,7 +4,7 @@ import { WavyBackground } from '@/components/ui/wavy-background'
 import Link from 'next/link'
 import React from 'react'
 
-function page() {
+function Page() {
     return (
         <WavyBackground className="max-w-4xl mx-auto h-screen flex items-center justify-center  pb-40 ">    
             <div className='flex flex-col items-center justify-center gap-6'>
@@ -28,4 +28,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
